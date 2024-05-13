@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1715532220 source:c:\users\dell\desktop\touchthetresume\main.cpp
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<SDL_image.h>
+	"Map.h"
+	"MainCharacter.h"
+	"Draw.h"
+
+1714616795 c:\users\dell\desktop\touchthetresume\map.h
+
+1715529317 c:\users\dell\desktop\touchthetresume\maincharacter.h
+
+1715531420 c:\users\dell\desktop\touchthetresume\draw.h
+
