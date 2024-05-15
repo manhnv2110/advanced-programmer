@@ -15,3 +15,19 @@
 
 1715531420 c:\users\dell\desktop\touchthetresume\draw.h
 
+1715756197 source:c:\users\dell\desktop\advanced-programmer\touchthetresume\main.cpp
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<SDL_image.h>
+	"Map.h"
+	"MainCharacter.h"
+	"Draw.h"
+
+1714616795 c:\users\dell\desktop\advanced-programmer\touchthetresume\map.h
+
+1715529317 c:\users\dell\desktop\advanced-programmer\touchthetresume\maincharacter.h
+
+1715763810 c:\users\dell\desktop\advanced-programmer\touchthetresume\draw.h
+

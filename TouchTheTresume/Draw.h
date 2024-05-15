@@ -59,13 +59,14 @@ void Draw_Map(int vt,int next_vt,int margin)
     int i;
     SDL_Rect rect;
     SDL_RenderCopy(renderer,Back_Ground,NULL,NULL);
+    //
     for(i=0;i<Map_List[vt].Ground.size();i++)
     {
         rect=Rect_With_Margin(Map_List[vt].Ground[i],margin-Margin_x);
         if(Ok_To_Draw(rect)==false) continue;
         Draw_Land(rect);
     }
-
+    //
     for(i=0;i<Map_List[vt].Item_List.size();i++)
     {
         if(Map_List[vt].Item_List[i].status==1) continue;
@@ -75,7 +76,7 @@ void Draw_Map(int vt,int next_vt,int margin)
         if(Map_List[vt].Item_List[i].type==1) SDL_RenderCopy(renderer,Coin,NULL,&rect);
         else SDL_RenderCopy(renderer,Shield,NULL,&rect);
     }
-
+    //
     for(i=0;i<Map_List[vt].Trap_List.size();i++)
     {
         if(Map_List[vt].Trap_List[i].second==0) continue;
@@ -84,7 +85,7 @@ void Draw_Map(int vt,int next_vt,int margin)
         if(Ok_To_Draw(rect)==false) continue;
         SDL_RenderCopy(renderer,Trap,NULL,&rect);
     }
-
+    //
     for(i=0;i<Map_List[vt].Obstacle.size();i++)
     {
         rect=Rect_With_Margin(Map_List[vt].Obstacle[i].Pos,margin-Margin_x);
@@ -92,14 +93,14 @@ void Draw_Map(int vt,int next_vt,int margin)
         if(Map_List[vt].Obstacle[i].status==0) SDL_RenderCopy(renderer,Obs,NULL,&rect);
         else if(SDL_GetTicks()-Map_List[vt].Obstacle[i].Impact_Time<500) SDL_RenderCopy(renderer,Explosion,NULL,&rect);
     }
-    /////////////////////////////////////////////////////////////////////////////
+
     for(i=0;i<Map_List[next_vt].Ground.size();i++)
     {
         rect=Rect_With_Margin(Map_List[next_vt].Ground[i],window_width+margin-Margin_x);
         if(Ok_To_Draw(rect)==false) continue;
         Draw_Land(rect);
     }
-
+    //
     for(i=0;i<Map_List[next_vt].Item_List.size();i++)
     {
         rect=Rect_With_Margin(Map_List[next_vt].Item_List[i].Pos,window_width+margin-Margin_x);
@@ -107,14 +108,14 @@ void Draw_Map(int vt,int next_vt,int margin)
         if(Map_List[next_vt].Item_List[i].type==1) SDL_RenderCopy(renderer,Coin,NULL,&rect);
         else SDL_RenderCopy(renderer,Shield,NULL,&rect);
     }
-
+    //
     for(i=0;i<Map_List[next_vt].Trap_List.size();i++)
     {
         rect=Rect_With_Margin(Map_List[next_vt].Trap_List[i].first,window_width+margin-Margin_x);
         if(Ok_To_Draw(rect)==false) continue;
         SDL_RenderCopy(renderer,Trap,NULL,&rect);
     }
-
+    //
     for(i=0;i<Map_List[next_vt].Obstacle.size();i++)
     {
         rect=Rect_With_Margin(Map_List[next_vt].Obstacle[i].Pos,window_width+margin-Margin_x);
@@ -134,9 +135,9 @@ void Draw_Shiled_Bar()
     rect.h=100;
     SDL_RenderCopy(renderer,Amor_Bar,NULL,&rect);
     rect.x=678;
-    rect.y=15;
+    rect.y=0;
     rect.w=time_left*675/10000;
-    rect.h=50;
+    rect.h=100;
     SDL_RenderCopy(renderer,Amor,NULL,&rect);
     return;
 }

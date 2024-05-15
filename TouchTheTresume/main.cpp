@@ -207,7 +207,7 @@ void Prepare()
 {
     string filename = "Title/" + to_string(i) + ".png";
     surface = IMG_Load(filename.c_str());
-    if(surface == NULL) cout << "check";
+
     Map_Texture[i] = SDL_CreateTextureFromSurface(renderer, surface);
 }
 
@@ -249,7 +249,6 @@ void Prepare()
     Music2=SDL_CreateTextureFromSurface(renderer,surface);
     surface=IMG_Load("button/Music3.png");
     Music3=SDL_CreateTextureFromSurface(renderer,surface);
-
     surface=IMG_Load("button/Guild_Table.png");
     Guild_Table=SDL_CreateTextureFromSurface(renderer,surface);
     surface=IMG_Load("button/Menu_Table.png");
@@ -293,7 +292,6 @@ void Free_Data()
     SDL_DestroyTexture(Menu);
     SDL_DestroyTexture(Point);
     SDL_DestroyTexture(Back_Ground);
-
     Mix_FreeChunk(coin_sound);
     Mix_FreeChunk(game_over_sound);
     Mix_FreeChunk(jump_sound);
@@ -327,7 +325,7 @@ int main(int argv,char *argc[])
 
         SDL_PollEvent(&input.event);
 
-        SDL_SetRenderDrawColor(renderer,0,0,0,255);
+
         SDL_RenderClear(renderer);
         Draw_Game_Play(&game,&input);
 
