@@ -20,12 +20,13 @@ Tựa game là một hành trình ly kỳ, nơi người chơi cùng Yan khám p
 - Boomb phát nổ và làm nhân vật tử vong, nhảy lên để tránh chúng.
 - **Map** sập *thực ra đây không hẳn là một tính năng mà là một bug được phát hiện trong quá trình xây map và nối map, việc nối map khiến cho các khối platforms vô tình trùng vào nhau, và em sử dụng nó như một even để tăng tính thú vị mà không cần thêm bất cứ dòng code nào :)*
 # NGUỒN THAM KHẢO
--**Hình ảnh và âm thanh**:
--**Hướng dẫn**:
+- **Hình ảnh và âm thanh**: https://www.shutterstock.com/vi/ và https://pixabay.com/vi/
+- **Hướng dẫn**: https://lazyfoo.net/tutorials/SDL/ và https://www.youtube.com/c/Ph%C3%A1tTri%E1%BB%83nPh%E1%BA%A7nM%E1%BB%81m123AZ và https://www.youtube.com/@CarlBirch
 # HƯỚNG PHÁT TRIỂN TRONG TƯƠNG LAI
-- Chia nhỏ thành các file hơn, tối ưu dễ bảo trì.
-- Bố sung thêm nhiều even, tăng độ khó cho game.
-# NGƯỠNG ĐIỂM CHO LÀ PHÙ HỢP
+- Chia nhỏ thành các file hơn để dễ bảo trì
+- Tối ưu bộ nhớ, giảm lag khi chơi game
+- Bố sung thêm nhiều even, tăng độ khó cho game
+# NGƯỠNG ĐIỂM CHO LÀ PHÙ HỢP (9 - 9.5)
 - Game đáp ứng đầy đủ các yêu cầu của bài tập lớn
 - Game tự viết có đồ họa đơn giản, có sự sáng tạo
 - Game có kết hợp âm thành, text đơn giản.
