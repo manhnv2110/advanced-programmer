@@ -111,8 +111,7 @@ void Control_Wait_Menu(Game_State *game,Input_State *input)
     SDL_Rect pause_button,guild_button,quit_button,out_button,restart_button,music_button,menu_table;
     pause_button={600,400,300,150};
     guild_button={900,600,300,150};
-    quit_button={1200,390,100,100};
-    out_button={1700,0,100,100};
+    quit_button={1300,0,200,100};
     music_button={300,600,300,150};
     menu_table={0,0,1500,800};
     if(game->Guild_Open==1)
@@ -202,7 +201,7 @@ void Update_game(Game_State *game,Input_State *input)
 void Prepare()
 {
     SDL_Surface *surface;
-    font=TTF_OpenFont("novem___.ttf",20);
+    font=TTF_OpenFont("font.ttf",20);
     for (int i = 1; i <= 14; i++)
 {
     string filename = "Title/" + to_string(i) + ".png";
@@ -270,7 +269,7 @@ void Free_Data()
     int i,j;
     for(i=1;i<=14;i++) SDL_DestroyTexture(Map_Texture[i]);
     for(i=0;i<=2;i++)
-        for(j=0;j<10;j++) SDL_DestroyTexture(MC.Mc_Textuter[i][j]);
+    for(j=0;j<10;j++) SDL_DestroyTexture(MC.Mc_Textuter[i][j]);
     SDL_DestroyTexture(Coin);
     SDL_DestroyTexture(Shield);
     SDL_DestroyTexture(Trap);

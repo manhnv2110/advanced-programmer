@@ -28,6 +28,7 @@ Character MC;
             else if (i == 2)
                 filename = "Character/fly" + to_string(j) + ".png";
                 surface = IMG_Load(filename.c_str());
+                if(surface == NULL) cout << "kh on roi :)";
                 MC.Mc_Textuter[i][j] = SDL_CreateTextureFromSurface(renderer, surface);
             }
         }

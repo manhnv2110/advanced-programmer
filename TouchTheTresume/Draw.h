@@ -129,12 +129,12 @@ void Draw_Shiled_Bar()
     int time_left=MC.time_end_undead-SDL_GetTicks();
     if(time_left<=0) return;
     SDL_Rect rect;
-    rect.x=500;
+    rect.x=300;
     rect.y=0;
     rect.w=900;
     rect.h=100;
     SDL_RenderCopy(renderer,Amor_Bar,NULL,&rect);
-    rect.x=678;
+    rect.x=478;
     rect.y=0;
     rect.w=time_left*675/10000;
     rect.h=100;
