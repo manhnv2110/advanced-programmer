@@ -5,11 +5,11 @@ CA1 - CN8 - K68 Khoa Công nghệ thông tin: Khoa học máy tính
 Trường Đại học Công nghệ Đại học Quốc gia Hà Nội (UET-VNU) 
 # GIỚI THIỆU GAME
 Touch The Treasume (Chạm vào kho báu) là game 2D được lấy cảm hứng từ tựa game Dino Game. 
-**Cốt truyện:**
+- **Cốt truyện:**
 Yan, một nhà thám hiểm tài ba và táo bạo, đã nghe đồn về kho báu huyền thoại của Teemo, được cho là chứa đựng 677.000 tỷ và những bí mật cổ xưa. Với bản tính phiêu lưu và khát khao khám phá, Yan quyết định bắt đầu cuộc hành trình truy tìm kho báu này.
-**Hành trình bắt đầu:**
+- **Hành trình bắt đầu:**
 Theo những manh mối từ các câu chuyện truyền thuyết, Yan đến khu rừng Bandle, nơi Teemo từng cất giấu tấm bản đồ dẫn đến kho báu. Sau khi vượt qua những cạm bẫy tự nhiên và tìm thấy tấm bản đồ, Yan bắt đầu cuộc hành trình đầy thử thách. Yan phải vượt qua những thử thách cạm bẫy mà Teemo đã đặt sẵn, lần theo dấu vết của những đồng tiền vàng và tìm đến kho báu!
-**Kết thúc:**
+- **Kết thúc:**
 Sau khi vượt qua mọi thử thách, Yan cuối cùng cũng tìm thấy kho báu của Teemo. Trong kho báu, Yan phát hiện ra không chỉ là những vật phẩm quý giá mà còn là những bí mật cổ xưa về sức mạnh và sự bảo vệ. Với kho báu này, Yan không chỉ thỏa mãn lòng đam mê phiêu lưu mà còn tìm thấy ý nghĩa và trách nhiệm mới trong việc bảo vệ thế giới khỏi những mối nguy hiểm tiềm tàng.
 Tựa game là một hành trình ly kỳ, nơi người chơi cùng Yan khám phá những bí ẩn và đối mặt với những thử thách đầy hấp dẫn để tìm ra kho báu của Teemo.
 # TÍNH NĂNG
