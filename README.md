@@ -21,12 +21,12 @@ Tựa game là một hành trình ly kỳ, nơi người chơi cùng Yan khám p
 - **Map** sập *thực ra đây không hẳn là một tính năng mà là một bug được phát hiện trong quá trình xây map và nối map, việc nối map khiến cho các khối platforms vô tình trùng vào nhau, và em sử dụng nó như một even để tăng tính thú vị mà không cần thêm bất cứ dòng code nào :)*
 # NGUỒN THAM KHẢO
 - **Hình ảnh và âm thanh**:
-  https://www.shutterstock.com/vi/
-  https://pixabay.com/vi/
+   - https://www.shutterstock.com/vi/
+   -  https://pixabay.com/vi/
 - **Hướng dẫn**:
-  https://lazyfoo.net/tutorials/SDL/
-  https://www.youtube.com/c/Ph%C3%A1tTri%E1%BB%83nPh%E1%BA%A7nM%E1%BB%81m123AZ
-  https://www.youtube.com/@CarlBirch
+   - https://lazyfoo.net/tutorials/SDL/
+   - https://www.youtube.com/c/Ph%C3%A1tTri%E1%BB%83nPh%E1%BA%A7nM%E1%BB%81m123AZ
+   - https://www.youtube.com/@CarlBirch
 # HƯỚNG PHÁT TRIỂN TRONG TƯƠNG LAI
 - Chia nhỏ thành các file hơn để dễ bảo trì
 - Tối ưu bộ nhớ, giảm lag khi chơi game
