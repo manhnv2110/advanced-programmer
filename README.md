@@ -1,8 +1,8 @@
 # THÔNG TIN SINH VIÊN
--Họ và tên: Nguyễn Văn Mạnh
--Mã số sinh viên: 23021619
--CA1 - CN8 - K68 Khoa Công nghệ thông tin: Khoa học máy tính
--Trường Đại học Công nghệ Đại học Quốc gia Hà Nội (UET-VNU) 
+- Họ và tên: Nguyễn Văn Mạnh
+- Mã số sinh viên: 23021619
+- CA1 - CN8 - K68 Khoa Công nghệ thông tin: Khoa học máy tính
+- Trường Đại học Công nghệ Đại học Quốc gia Hà Nội (UET-VNU) 
 # GIỚI THIỆU GAME
 Touch The Treasume (Chạm vào kho báu) là game 2D được lấy cảm hứng từ tựa game Dino Game. 
 - **Cốt truyện:**
