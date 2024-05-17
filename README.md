@@ -1,8 +1,8 @@
 # THÔNG TIN SINH VIÊN
-Họ và tên: Nguyễn Văn Mạnh
-Mã số sinh viên: 23021619
-CA1 - CN8 - K68 Khoa Công nghệ thông tin: Khoa học máy tính
-Trường Đại học Công nghệ Đại học Quốc gia Hà Nội (UET-VNU) 
+-Họ và tên: Nguyễn Văn Mạnh
+-Mã số sinh viên: 23021619
+-CA1 - CN8 - K68 Khoa Công nghệ thông tin: Khoa học máy tính
+-Trường Đại học Công nghệ Đại học Quốc gia Hà Nội (UET-VNU) 
 # GIỚI THIỆU GAME
 Touch The Treasume (Chạm vào kho báu) là game 2D được lấy cảm hứng từ tựa game Dino Game. 
 - **Cốt truyện:**
@@ -20,8 +20,8 @@ Tựa game là một hành trình ly kỳ, nơi người chơi cùng Yan khám p
 - Boomb phát nổ và làm nhân vật tử vong, nhảy lên để tránh chúng.
 - **Map** sập *thực ra đây không hẳn là một tính năng mà là một bug được phát hiện trong quá trình xây map và nối map, việc nối map khiến cho các khối platforms vô tình trùng vào nhau, và em sử dụng nó như một even để tăng tính thú vị mà không cần thêm bất cứ dòng code nào :)*
 # NGUỒN THAM KHẢO
-**Hình ảnh và âm thanh**:
-**Hướng dẫn**:
+-**Hình ảnh và âm thanh**:
+-**Hướng dẫn**:
 # HƯỚNG PHÁT TRIỂN TRONG TƯƠNG LAI
 - Chia nhỏ thành các file hơn, tối ưu dễ bảo trì.
 - Bố sung thêm nhiều even, tăng độ khó cho game.
