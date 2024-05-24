@@ -31,7 +31,7 @@ Tựa game là một hành trình ly kỳ, nơi người chơi cùng Yan khám p
 - Chia nhỏ thành các file hơn để dễ bảo trì
 - Tối ưu bộ nhớ, giảm lag khi chơi game
 - Bố sung thêm nhiều even, tăng độ khó cho game
-# NGƯỠNG ĐIỂM CHO LÀ PHÙ HỢP (9 - 9.5)
+# NGƯỠNG ĐIỂM CHO LÀ PHÙ HỢP (8-8.5)
 - Game đáp ứng đầy đủ các yêu cầu của bài tập lớn
 - Game tự viết có đồ họa đơn giản, có sự sáng tạo
 - Game có kết hợp âm thành, text đơn giản.
